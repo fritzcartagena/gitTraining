@@ -1,5 +1,8 @@
+print("Enter first number:")
 num1 = input()
+print("Enter operation (+, -, /, *, sqrt, ^, log):")
 operation = input()
+print("Enter second number (if needed):")
 num2 = input()
 
 def add(a, b):
