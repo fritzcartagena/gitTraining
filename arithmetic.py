@@ -26,6 +26,13 @@ def squareRoot(a):
 def power(a, b):
     return a ** b
 
+def logarithm(a, b):
+    import math
+    if a <= 0 or b <= 0 or a == 1:
+        return "Error: Invalid input for logarithm"
+    else:
+        return math.log(b, a)
+
 match operation:
     case "+":
         print(add(num1, num2))
@@ -39,3 +46,5 @@ match operation:
         print(squareRoot(num1))
     case "^":
         print(power(num1, num2))
+    case "log":
+        print(logarithm(num1, num2))
