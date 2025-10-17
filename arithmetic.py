@@ -1,1 +1,4 @@
-print(1)
+x = input()
+
+for i in range(int(x)):
+    print(f"{i} = Hello World")
